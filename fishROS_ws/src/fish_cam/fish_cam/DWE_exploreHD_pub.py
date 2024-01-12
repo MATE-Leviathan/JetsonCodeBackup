@@ -61,7 +61,7 @@ class ExploreHDPub(Node):
         Does not raise but will log error if unable to read frame from camera
     """
     def publish_image(self):
-        # essetnially while True but is ros shutdown safe
+        # essentially while True but is ros shutdown safe
         while rclpy.ok():
             # Capture frame-by-frame
             ret, frame = self.cap.read()
