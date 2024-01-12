@@ -1,7 +1,7 @@
 """
 Authors(s): Everett Tucker
 Creation Date: 01/10/2024
-Description: Publishes data from the inu temperature sensor
+Description: Publishes data from the IMU's temperature sensor
 """
 
 import rclpy
