@@ -50,7 +50,7 @@ class ImuPub(Node):
 
 
     """
-    Reads in the most recent data from the ping2 sonar and publishes it to the topic 'Data'
+    Reads in the most recent data from the ping2 sonar and publishes it to the topic 'IMUData'
     Publishes Quaternion Orientation, Linear Acceleration, and Angular Velocity
 
     Args:
